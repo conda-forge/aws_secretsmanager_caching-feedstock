@@ -1,5 +1,5 @@
 {% set name = "aws_secretsmanager_caching" %}
-{% set version = "1.1.1.5" %}
+{% set version = "1.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aws_secretsmanager_caching-{{ version }}.tar.gz
-  sha256: 5cee2762bb89b72f3e5123feee8e45fbe44ffe163bfca08b28f27b2e2b7772e1
+  sha256: 861768f88d7203fa4b03e6050c58bc124aefdbbc502e9c62a97875fb85eab5e0
 
 build:
   noarch: python
